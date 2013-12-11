@@ -1,0 +1,16 @@
+<% provide(:title, 'All users') %>
+<h1>All Pingouins</h1>
+
+<%= search_form_for @search do |f| %>
+    <%= f.label :name_cont %>
+    <%= f.text_field :name_cont, class:'span11' %>
+    <%= f.submit "search", class:'btn btn-primary pull-right' %>
+    <% end %>
+
+<%= will_paginate %>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%= will_paginate %>
