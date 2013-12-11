@@ -8,7 +8,7 @@ A l'origine l'application se base sur celle de Michael Hartl (http://michaelhart
 
 Pour commencer à customiser votre application c'est très simple, il vous faut une installation complète de Ruby-2.0.0 / Rails 4 et bundler, je vous conseille pour cela d'utiliser rvm https://rvm.io/‎.
 
-## INSTALLATION ET DÉMARRAGE RAPIDE DE L'APPLICATION 
+** INSTALLATION ET DÉMARRAGE RAPIDE DE L'APPLICATION ** 
     
     $ mkdir myapp
     $ cd /myapp
