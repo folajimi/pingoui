@@ -11,11 +11,10 @@ INSTALLATION ET DÉMARRAGE RAPIDE DE L'APPLICATION
     
     $ mkdir myapp
     $ cd /myapp
-    $ git clone https://git@github.com:folajimi/pingoui.git
+    $ git clone https://github.com/folajimi/pingoui.git
     $ cd pingoui
     $ bundle install
     $ bundle exec rake db:migrate
-    $ bundle exec rake db:test:prepare
     $ rails s
 
 ... et voila, vous avez maintenant une application sociale de nouvelle génération installée, téstée, et prête à être cusomisée. 
